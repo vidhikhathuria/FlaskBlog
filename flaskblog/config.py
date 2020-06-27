@@ -3,7 +3,7 @@ import os
 
 class Config:
 	SECRET_KEY = '040542c0dbbee13468b69f52f331b2ba'
-	SQLALCHEMY_DATABASE_URI = 'sqlite:///site.db'
+	SQLALCHEMY_DATABASE_URI = 'postgresql:///wordcount_dev'
 	SQLALCHEMY_TRACK_MODIFICATIONS = False
 	MAIL_SERVER = 'smtp.gmail.com'
 	MAIL_PORT = 587
