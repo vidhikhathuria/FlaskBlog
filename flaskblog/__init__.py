@@ -5,6 +5,9 @@ from flask_login import LoginManager
 from flask_mail import Mail
 from flaskblog.config import Config
 from flask_migrate import Migrate
+import logging
+from logging.handlers import SMTPHandler, RotatingFileHandler
+import os
 
 
 
